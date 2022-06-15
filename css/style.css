@@ -178,11 +178,8 @@ body {
   color: var(--white-color);
 }
 
-.current-btn:current {
-  background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+.current {
+  color: var(--accent-color);
 }
 
 .item-name {
@@ -193,12 +190,12 @@ body {
   color: var(--nav-txt-cl);
 }
 
-.item-p{
+.item-p {
   font-weight: 400;
-font-size: 16px;
-line-height: 1.9;
-letter-spacing: 0.03em;
-color: var(--often-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--often-color);
 }
 
 .link-cnt {
